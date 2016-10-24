@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>PopArt</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src = "js/jquery.min.js"></script>
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+
+
+
+
+</head>
+
+<body>
+	<!-- 1 блок -->
+	<div class="banner">
+		<div class="container">
+			<div class="header">
+				<div class="logo">
+					<h1><a href="#">PopArt</a></h1>
+				</div>		
+				<div class="navbarHeader">
+					<span class="hiddenMenu"><img src="img/icon.png"></span>
+					<ul class="menu">
+						<li><a href="#home">Главная</a></li>
+						<li><a href="#about-us">Обо мне</a></li>
+						<li><a href="#portfolio">Портфолио</a></li>
+						<li><a href="#services">Услуги</a></li>
+						<li><a href="#contact-us">Связь</a></li>
+					</ul>
+
+					<script>
+						$("span.hiddenMenu"). click(function() {
+							$("ul.menu"). slideToggle(300, function(){
+
+							});
+						});
+					</script>
+					<!-- //script for menu -->
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="bannerInfo col-md-4 col-sm-4 col-xs-4" >
+				<img src="img/logo.png"	 alt="logo">
+				<div class="order"><a href="#contact-us">Заказать</a></div>
+			</div>	
+			
+		</div>
+	</div>	
+		<!--//1 блок -->
+
+		<!--2 блок -->
+		<div id="about-us" class="about-us">
+			<div class="container">
+				<div class="about-info">
+					<h2>Почему вам стоит выбрать именно нас?</h2>
+				</div>
+				<div class="about-grids">
+					<div class="col-md-6   about-left">
+						<img src="img/1.jpg" alt=" "/>
+					</div>
+					<div class="col-md-6   about-right">
+
+
+						<p>Начнём с того, что индивидуальный подход к каждому портрету очень порадует Вас, подчеркнёт индивидуальность и креативность не только человека, которому будет подарена картина, но и Ваши.<br>Возможность участия в рисовании эскиза, выбор фона на вкус и цвет, подстать интерьеру и пожеланиям.
+							<span class="para">Мы верны стилю. Картина рисуется исключительно вручную и исключительно известными красками, которые не трескаются, не выгорают со временем, то есть правнукам выпадает огромная честь лицезреть Вас молодыми.<br>И, конечно же, Вы будете приятно удивлены ценам и постоянным скидкам</span></p>
+							<!--<div class="communication"><a href="#" class="waves-effect waves-light btn">ЗАКАЗАТЬ</a></div>-->
+							<a href="#contact-us" class="btn btn-lg btn-danger">Заказать</a>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+			<!--//2 блок -->
+
+			<!-- 3 блок -->
+		<div id="portfolio" class="portfolio">
+			<div class="container">
+				<div class="portfolio-info">
+					<h2>Наши работы</h2>
+					<p>Lorem ipsum dolor sit amet tetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+				</div>
+			<div class="portfolio-grids">
+				<div class="col-md-3 col-sm-4 col-xs-6 thumb">
+					<a class="fancyimage" rel="group" href="img/2.jpg">
+						<img class="img-responsive" src="img/2.jpg" />
+					</a>
+				</div>
+				<div class="col-md-3 col-sm-4 col-xs-6 thumb">
+					<a class="fancyimage" rel="group" href="img/3.jpg">
+						<img class="img-responsive" src="img/3.jpg" />
+					</a>
+				</div>
+				<div class="col-md-3 col-sm-4 col-xs-6 thumb">
+					<a class="fancyimage" rel="group" href="img/4.jpg">
+						<img class="img-responsive" src="img/4.jpg" />
+					</a>
+				</div>
+				<div class="col-md-3 col-sm-4 col-xs-6 thumb">
+					<a class="fancyimage" rel="group" href="img/5.jpg">
+						<img class="img-responsive" src="img/5.jpg" />
+					</a>
+				</div>
+				<div class="col-md-3 col-sm-4 col-xs-6 thumb">
+					<a class="fancyimage" rel="group" href="img/6.jpg">
+						<img class="img-responsive" src="img/6.jpg" />
+					</a>
+				</div>
+				<div class="col-md-3 col-sm-4 col-xs-6 thumb">
+					<a class="fancyimage" rel="group" href="img/7.jpg">
+						<img class="img-responsive" src="img/7.jpg" />
+					</a>
+				</div>
+				<div class="col-md-3 col-sm-4 col-xs-6 thumb">
+					<a class="fancyimage" rel="group" href="img/8.jpg">
+						<img class="img-responsive" src="img/8.jpg" />
+					</a>
+				</div>
+				<div class="col-md-3 col-sm-4 col-xs-6 thumb">
+					<a class="fancyimage" rel="group" href="img/9.jpg">
+						<img class="img-responsive" src="img/9.jpg" />
+					</a>
+				</div>
+			</div>
+			</div>
+		</div>
+			<!--//3 блок -->
+
+			<!--4 блок -->
+			<div id="services"class="services">
+				<div class="container">
+					<div class="service-info">
+					<h2>КАК МЫ РАБОТАЕМ</h2>
+						<p>Lorem ipsum dolor sit amet tetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+					</div>
+					<div class="services-grids">
+						<div class="col-md-3 service-grid">
+							<div class="service-image">
+								<div class="camera"></div>
+								<div class="ser-info">
+									<h2>ВЫБИРАЕМ ФОТО</h2>
+								</div>
+								<div class="strip"></div>
+								<div class="ser-info">
+									<p>Lorem ipsum dolor sit amet tetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+								</div>
+								
+							</div>
+						</div>
+						<div class="col-md-3 service-grid">
+							<div class="service-image">
+								<div class="paint"></div>
+								<div class="ser-info">
+									<h2>УТВЕРЖДАЕМ ЭСКИЗ</h2>
+								</div>
+								<div class="strip"></div>
+								<div class="ser-info">
+									<p>Lorem ipsum dolor sit amet tetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+								</div>
+								
+							</div>
+						</div>
+						<div class="col-md-3 service-grid">
+							<div class="service-image">
+								<div class="video"></div>
+								<div class="ser-info">
+									<h2>РИСУЕМ ПОРТРЕТ</h2>
+								</div>
+								<div class="strip"></div>
+								<div class="ser-info">
+									<p>Lorem ipsum dolor sit amet tetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+								</div>
+								
+							</div>
+						</div>
+						<div class="col-md-3 service-grid">
+							<div class="service-image">
+								<div class="web-design"></div>
+								<div class="ser-info">
+									<h2>ВЫСЫЛАЕМ ПОРТРЕТ</h2>
+								</div>
+								<div class="strip"></div>
+								<div class="ser-info">
+									<p>Lorem ipsum dolor sit amet tetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+								</div>
+								
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+			<!--//4 блок -->
+			
+			<!--5 блок -->
+			<div id="contact-us" class="contact-us">
+				<div class="container">
+					<div class="contact-info">
+					<h2>ЗАКАЗАТЬ</h2>
+					</div>
+					<div class="contact-grids">
+						<div class="col-md-6 contact-left">
+						<div class="contLef">
+							<h2>МЫ В СОЦСЕТЯХ:</h2>
+							<div class="border"></div>
+							<div class="social">
+							<a href="https://vk.com/popartprsnt" target="_blank">
+								<img src="img/vkontakte.png" alt="VK">
+							</a>
+							<a href="">
+								<img src="img/Instagram.png" alt="Inst">
+							</a>
+							</div>
+
+							<h3>Контактная информация</h3>
+							<ul>
+								<li>Денис Помелуйко</li>
+								<li>Телефон: +7 (908) 186-68-14</li>
+								<li>Город: Таганрог</li>
+							</ul>
+						</div>
+						</div>
+						<div class="col-sm-6 contact-right">
+							<!-- Контейнер, содержащий форму обратной связи -->
+							<div class="panel panel-info">
+								<!-- Содержимое контейнера -->
+								<div class="panel-body">
+
+									<!-- Сообщение, отображаемое в случае успешной отправки данных -->
+									<div class="alert alert-success hidden" role="alert" id="successMessage">
+										<strong>Внимание!</strong> Ваше сообщение успешно отправлено.
+									</div>
+
+									<!-- Форма обратной связи -->
+									<form id="contactForm">
+										<div class="row">
+
+
+											<div id="error" class="col-sm-12" style="color: #ff0000; margin-top: 5px; margin-bottom: 5px;"></div>
+
+											<!-- Имя и email пользователя -->                
+											<div class="col-sm-6">
+												<!-- Имя пользователя -->
+												<div class="form-group has-feedback">
+													<label for="name" class="control-label">Введите ваше имя:</label>
+													<input type="text" id="name" name="name" class="form-control" required="required" value="" placeholder="Например, Иван Иванович" minlength="2" maxlength="30">
+													<span class="glyphicon form-control-feedback"></span>
+												</div>
+											</div>
+											<div class="col-sm-6">
+												<!-- Email пользователя -->
+												<div class="form-group has-feedback">
+													<label for="email" class="control-label">Введите адрес email:</label>
+													<input type="email" id="email" name="email" class="form-control" required="required"  value="" placeholder="Например, ivan@mail.ru" maxlength="30">
+													<span class="glyphicon form-control-feedback"></span>
+												</div>
+											</div>
+										</div>
+
+										<!-- Сообщение пользователя -->
+										<div class="form-group has-feedback">
+											<label for="message" class="control-label">Введите сообщение:</label>
+											<textarea id="message" class="form-control" rows="3" placeholder="Введите сообщение от 20 до 500 символов" minlength="20" maxlength="500" required="required"></textarea>
+										</div>
+
+										<hr>
+
+										<!-- Кнопка, отправляющая форму -->  
+										<button type="submit" class="btn btn-primary pull-right">Отправить сообщение</button>
+									</form><!-- Конец формы -->
+
+								</div>
+							</div><!-- Конец контейнера -->
+
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+			<!--//5 блок -->
+			<footer class="footer">
+				<!--<p class="text-center text-primary tooltip-method">Designed by <button class="btn btn-link show-tooltip">Anton Babichev</button> &-->
+					<!--<button class="btn btn-link">German Danchevsky</button> in 2016 year.</p>-->
+				<p class="tooltip-method">
+					<a href="#" title="Демонстрация методов tooltip">Подсказка tooltip</a>
+				</p>
+				<div>
+					<p>Нажмите на следующие кнопки для управления tooltip с помощью его методов:</p>
+					<input type="button" class="btn btn-primary show-tooltip" value="Show">
+					<input type="button" class="btn btn-warning hide-tooltip" value="Hide">
+					<input type="button" class="btn btn-success toggle-tooltip" value="Toogle">
+					<input type="button" class="btn btn-danger destroy-tooltip" value="Destroy">
+				</div>
+			</footer>
+	<script>
+		$(document).ready(function(){
+			$(".show-tooltip").click(function(){
+				$(".tooltip-method a").tooltip('show');
+			});
+			$(".hide-tooltip").click(function(){
+				$(".tooltip-method a").tooltip('hide');
+			});
+			$(".toggle-tooltip").click(function(){
+				$(".tooltip-method a").tooltip('toggle');
+			});
+			$(".destroy-tooltip").click(function(){
+				$(".tooltip-method a").tooltip('destroy');
+			});
+		});
+	</script>
+
+			<script type="text/javascript">
+				$(document).ready(function() {							
+					$().UItoTop({ easingType: 'easeOutQuart' });
+				});
+			</script>
+			<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+		</body>
+		</html>
